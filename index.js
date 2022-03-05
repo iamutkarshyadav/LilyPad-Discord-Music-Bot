@@ -1,6 +1,6 @@
 const {Client, Intents, MessageEmbed, Presence, Collection, Interaction}= require ('discord.js')
 const client = new Client({intents:[Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES ,Intents.FLAGS.GUILD_VOICE_STATES]})
-const token = 'OTM2MTY0MzIwMzQ4MzQ0MzMx.YfJM9w.glWNeMtYE8OUWXUYvny-F0LrWJ8'
+const token = '' // Token here...
 const {REST} = require('@discordjs/rest')
 const fs = require('fs')
 const {Player} = require('discord-player')
@@ -8,8 +8,8 @@ const { Routes } = require('discord-api-types/v9')
 
 
 const LOAD_SLASH = process.argv[2] == "load"
-const CLIENT_ID = '936164320348344331'
-const GUILD_ID = '938042434712129566'
+const CLIENT_ID = '' // client id of the bot from discord developer portal!
+const GUILD_ID = '' // server id (you can get it from your server, just right click)
 
 
 client.slashcommands = new Collection()
